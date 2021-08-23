@@ -22,6 +22,8 @@ public class MyProducer {
         factory.setUsername("guest");
         factory.setPassword("guest");
 
+
+
         // 建立连接
         Connection conn = factory.newConnection();
         // 创建消息通道
